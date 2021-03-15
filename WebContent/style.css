@@ -1,0 +1,124 @@
+*
+{
+	margin:0;
+	padding:0;
+}
+
+body 
+  {
+      background-image: url("C:/Users/User/Desktop/Pizza Project/Images/background.jpg");
+    background-attachment: fixed;
+  background-position: center;
+       height: 100%; 
+       width: 100%;
+  }
+  
+ 
+ 
+ 
+  
+  .fixed-header{
+        width: 100%;
+        position: fixed;        
+        background:#800180;
+        padding: 10px 0;
+    }
+    .fixed-header{
+        top: 0;
+        left:0;
+    }
+    .fixed-footer{
+        bottom: 0;
+         left:0;
+    }
+    .container{
+        width: 80%;
+        margin: 0 auto; /* Center the DIV horizontally */
+    }
+    
+    nav a{
+        color: white;
+        text-decoration: none;   /* removes underlink from link  */
+        padding: 7px 30px;      /* Provides a space between link */
+        display: inline-block;
+    }
+    
+        #signUpContent form
+        {
+            margin-top:160px;
+            margin-left: 450px ;
+        }
+        
+        #loginContent
+        {
+            margin-top:190px;
+            margin-left: 400px ;   
+        }
+        
+        #Success
+        {
+           position:fixed;
+           margin-top: 80px;
+           margin-left: 10px;
+           text-align: center;
+           background-color: green; 
+        }
+        
+        #Fail
+        {
+           position:fixed;
+           margin-top: 80px;
+           margin-left: 10px;
+           text-align: center;
+           background-color: red;
+        }
+        
+        input[type="submit"] {
+            height: 30px;
+            color: #fff;
+            font-size: 15px;
+            background: #800180;
+            cursor: pointer;
+            border-radius: 25px;
+            border: none;
+            outline: none;
+            margin-top: 3%;
+            width:250px;
+        }
+        
+        td
+        {
+            padding:10px;
+            color:white;
+        }
+        
+        #homeTable
+        {
+              margin-top:100px ;
+              margin-left:250px;
+        }
+        
+        #addTable
+        {
+              margin-top:130px ;
+              margin-left:350px;
+              position:fixed;
+        }
+        
+        #myCartTable
+        {
+              margin-top:70px ;
+              margin-left:350px;
+        }
+        
+        #orderButton
+        {
+            margin-left:480px;
+        }
+        
+        table 
+        {
+            border-color:#800180;
+        }
+        
+     
